@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* common style start */
+.btn-primary {
+    color: #FFF;
+    padding: 4px 36px;
+    background-color: #E95A08;
+    border-radius: 8px;
+}
+
+.primary-color {
+    color: #E95A08;
+}
+
+.secondary-color {
+    color: #8987A1;
+}
+
+/* common style end */
+
+/* header style start */
+header {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.header-container {
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+/* nav style */
+
+.itams ul {
+    list-style: none;
+}
+
+.itams li a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header-content {
+    margin: 70px 0;
+}
+
+.header-title {
+    margin-bottom: 20px;
+}
+
+.header-content img {
+    width: 100%;
+}
+
+/* hover style */
+.itams li a:hover {
+    border-bottom: 1px solid #E95A08;
+}
+
+/* header style end */
+/* main style start */
+main {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+.card {
+    width: 190px;
+    box-shadow: -6px 6px 41px -12px rgba(0, 0, 0, 0.75);
+    padding: 5px 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-itams {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+/* flower-lover-plants style */
+
+.flower-lover-image {
+    width: 50%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.badge {
+    position: absolute;
+    width: 35%;
+    top: -65px;
+    right: -65px;
+}
+
+.flower-lover-content {
+    width: 50%;
+    margin-left: 60px;
+}
+
+/* latest-deal style */
+.deals-left-container {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.deals-left-container img {
+    border-radius: 8px;
+}
+
+.left-first-title {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: #fff;
+}
+
+.shop-now {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.deals-right-container {
+    position: relative;
+    margin-left: 10px;
+}
+
+.deals-right-container img {
+    border-radius: 8px;
+}
+
+.right-first-title {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.shop-now1 {
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.deals-left-right {
+    display: flex
+}
+
+/* colorfull bunch style */
+#full-width {
+    max-width: 1240px;
+
+
+}
+
+.colorfull-bunch-container {}
+
+.color-image {
+    position: relative;
+
+}
+
+.email-area {
+    position: absolute;
+    top: 50%;
+    left: 31%;
+}
+
+input {
+    /* border: 1px solid black; */
+    width: 250px;
+    background-color: #FFF;
+    outline: none;
+    padding: 6px 10px;
+}
+
+.btn-secondary {
+    background-color: #E95A08;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: -10px;
+
+}
+
+
+
+/* main style end */
+
+
+
+
+/* maedia quary style */
+
+@media screen and (max-width:576px) {
+
+    .itam-list,
+    .badge {
+        display: none;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+        gap: 15px 0;
+    }
+
+    .header-container {
+        margin: 0 15px;
+    }
+
+    .card-itams {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flower-love-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .flower-lover-image,
+    .flower-lover-content {
+        width: 85%;
+        margin: 0px;
+
+    }
+
+    .flower-love-container ul {
+        padding: 0px 35px;
+    }
+
+    .deals-left-right {
+        flex-direction: column;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .deals-right-container {
+        margin-left: 0px;
+    }
+
+    .right-first-title {
+        font-size: 20px;
+    }
+
+    .shop-now1 {
+        font-size: 15px;
+    }
+
+    .email-area {
+        width: 80%;
+        top: 50%;
+        left: 15%;
+    }
+}
