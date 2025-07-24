@@ -186,8 +186,8 @@ section {
 
 .email-area {
     position: absolute;
-    top: 50%;
-    left: 31%;
+    top: 35%;
+    left: 24%;
 }
 
 .join-flower-group {
@@ -294,6 +294,12 @@ input {
 
     .shop-now1 {
         font-size: 15px;
+    }
+
+    .email-area {
+        top: 25%;
+        left: 12%;
+        /* width: 76%; */
     }
 
     .footer-container {
