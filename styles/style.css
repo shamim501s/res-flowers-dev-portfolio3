@@ -28,7 +28,8 @@
 /* common style end */
 
 /* header style start */
-header {
+header,
+footer {
     max-width: 1224px;
     margin: 0 auto;
 }
@@ -178,8 +179,6 @@ section {
 
 }
 
-.colorfull-bunch-container {}
-
 .color-image {
     position: relative;
 
@@ -191,8 +190,13 @@ section {
     left: 31%;
 }
 
+.join-flower-group {
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
 input {
-    /* border: 1px solid black; */
     width: 250px;
     background-color: #FFF;
     outline: none;
@@ -209,10 +213,29 @@ input {
 
 }
 
-
-
 /* main style end */
 
+/* footer area style */
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 25%;
+}
+
+.icon-img img {
+    width: 20%;
+    height: 22%;
+    margin-right: 10px;
+}
+
+
+.footer-itams-first li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
 
 
 
@@ -273,9 +296,23 @@ input {
         font-size: 15px;
     }
 
-    .email-area {
-        width: 80%;
-        top: 50%;
-        left: 15%;
+    .footer-container {
+        flex-direction: column;
+        margin-left: 15px;
+
     }
+
+    .footer-logo {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icon-img img {
+        width: 5%;
+        height: 15%;
+
+    }
+
+
+
 }
