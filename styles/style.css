@@ -289,7 +289,7 @@ input {
     }
 
     .right-first-title {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .shop-now1 {
@@ -299,7 +299,9 @@ input {
     .email-area {
         top: 25%;
         left: 12%;
-        /* width: 76%; */
+    }
+    input {
+        width: 162px;
     }
 
     .footer-container {
